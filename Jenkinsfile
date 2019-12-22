@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh 'echo "Webhook Learner World"'
+                sh 'echo "Webhook Committed"'
                 sh '''
                     echo "Multiline shell steps works too"
                     ls -lah
